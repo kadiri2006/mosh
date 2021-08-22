@@ -1,15 +1,8 @@
-p {
-  background-color: yellow /* yellow!important gives more specificty  weight */
+.color {
+    color:coral;
+    border: 2px double red;
 }
-
-.itcl {
-  background-color: red;
-}
-
-#itid {
-  background-color: seagreen;
-}
-
-p#itid.itcl {
-  background-color: blue;
+strong{
+    
+    border: inherit;
 }
