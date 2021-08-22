@@ -1,0 +1,15 @@
+p {
+  background-color: yellow //yellow!important gives more specificty  weight
+}
+
+.itcl {
+  background-color: red;
+}
+
+#itid {
+  background-color: seagreen;
+}
+
+p#itid.itcl {
+  background-color: blue;
+}
