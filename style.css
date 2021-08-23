@@ -1,8 +1,13 @@
 .color {
-    color:coral;
-    border: 2px double red;
+    width: 200px;
+    height: 100px;
+    background-color:orangered;
+    box-shadow:10px 10px 30px grey;
+
 }
-strong{
+h1 {
+    text-shadow:6px 20px 0px rgb(0 0 0 / 20%);
+    color:orangered;
+
     
-    border: inherit;
 }
