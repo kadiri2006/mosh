@@ -1,0 +1,14 @@
+#testMargin {
+    margin: 50px;
+}
+
+#testBorder{
+    margin: 0px;
+    border: 50px solid blue;
+}
+
+#testBorderWithPadding {
+    margin: 0px;
+    border: 50px solid blue;
+    padding: 30px;
+}

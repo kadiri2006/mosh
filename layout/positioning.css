@@ -1,0 +1,86 @@
+html {
+  font-size: 62.5%;
+}
+.boxes {
+  border: blue solid 3px;
+  height: 30rem;
+  width: 30rem;
+}
+
+.box {
+  height: 10rem;
+  width: 10rem;
+}
+.box-one {
+  background-color: yellow;
+}
+.box-two {
+  background-color: red;
+}
+.box-three {
+  background-color: green;
+}
+.box-four {
+  background-color: yellow;
+}
+.box-five {
+  background-color: red;
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  z-index: -1;
+}
+.box-six {
+  background-color: green;
+}
+
+.absolute {
+  border: blue solid 3px;
+  height: 30rem;
+  width: 30rem;
+  position: relative;
+}
+
+.box-seven {
+  background-color: yellow;
+}
+.box-eight {
+  background-color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.box-nine {
+  background-color: green;
+}
+
+.fixed {
+  border: blue solid 3px;
+  height: 30rem;
+  width: 30rem;
+}
+
+.fixed-one {
+  background-color: yellow;
+  height: 10rem;
+  width: 10rem;
+}
+.fixed-two {
+  height: 10rem;
+  width: 10rem;
+}
+.fixed-two {
+  background-color: red;
+
+  position: fixed;
+  top: 2rem; /* sizing the red box without giving it a height and width ,by just giving its position */
+  left: 5rem;
+  right: 5rem;
+  bottom: 55rem;
+  width: auto;  /* this is the only way to make it auto-size,if you remove this width prop then its takes values from above it */
+}
+.fixed-three {
+  background-color: green;
+  height: 10rem;
+  width: 10rem;
+}

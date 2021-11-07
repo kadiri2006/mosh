@@ -1,0 +1,32 @@
+.color-box {
+  width: 10rem;
+  height: 10rem;
+  background-color: #1da1f2;
+  float: right;
+}
+
+.twitter {
+  border: 1px solid tomato;
+}
+
+.clear {
+  clear: both; /* if this class assaign to any  element in dom then that element is not floating around floated element */
+  /* if you apply this class to empty div element,and place that empty div element at end of block with class name of "twitter",then parent element recognise floated element also*/
+}
+
+.color-box2 {
+  width: 10rem;
+  height: 10rem;
+  background-color: #1da1f2;
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;     /* this is for clearing floated element */
+  clear: both;
+}
+
+.overflow {
+  overflow: hidden; /* this is for hiding overflow of floated element */
+}

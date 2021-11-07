@@ -1,0 +1,43 @@
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  
+}
+.two {
+  width: 50%;
+  height: 50%;
+  background-color: green;  /* its does not shows because of % takes values from parent here div parent is body element,but body by default has  0 px of height and 100% width */
+}
+.three {
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+
+.four {
+  width:50vw;
+  height: 50vh;
+  background-color: yellow;
+}
+body {
+  font-size: 50px;
+}
+.five {
+  width: 1em;
+  height: 1em;    /* here "em" looks for font-size in div element first ,if not found then it looks for font-size in body element even if it is not there it will looking at HTMl element ,by default it is 16px */
+  background-color: black;
+}
+
+.six {
+  width: 1rem;
+  height: 1rem;
+  background-color: red;  /* rem is directly taken value from root element(HTML element by default) ,here it is 16px */
+}
+.final {
+  width: 50%;
+  height: 10vh;
+  background-color: yellow;
+  border-top: red solid 3px;
+}
+

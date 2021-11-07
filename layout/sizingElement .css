@@ -1,0 +1,75 @@
+* {
+  height: 10px;
+  width: 10px; /* this does not applied sudo elements ::befor and ::after */
+}
+
+*::before {
+  height: 10px;
+  /* after this its  applied to all sudo elements ::befor and ::after */
+  width: 10px;
+}
+
+.firstDiv {
+  background-color: blue;
+  /*  height: 10px;
+    width: 10px; */
+}
+.secondDiv {
+  background-color: blue;
+  /*  height: 10px;
+    width: 10px; */
+  padding: 10px;
+}
+
+.thirdDiv {
+  background-color: blue;
+  /*  height: 10px;
+    width: 10px; */
+  padding: 10px;
+  border: 10px solid greenyellow;
+}
+
+.fourth {
+  background-color: blue;
+  /*  height: 10px;
+    width: 10px; */
+  box-sizing: border-box;
+}
+.five {
+  background-color: blue;
+  /*  height: 10px;
+    width: 10px; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.six {
+  background-color: blue;
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+  border: 10px solid greenyellow;
+  box-sizing: border-box;
+}
+
+.pseuoDiv {
+  background-color: greenyellow;
+}
+
+.pseuoDiv::before {
+  content: "h";
+}
+
+
+.withinlineblock {
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    display: inline-block;
+}
+span{
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  
+}

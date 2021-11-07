@@ -1,0 +1,114 @@
+.flex-one {
+  border: 2px solid black;
+  display: flex;
+}
+.items {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+  background-color: wheat;
+}
+
+.flex-two {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0.2rem;
+}
+
+.flex-column {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 0.2rem;
+}
+.flex-column-reverse {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0.2rem;
+}
+.flex-column-reverse-withspace {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0.2rem;
+  height: 50rem;
+  width: 10rem;
+}
+
+.justify {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+.align-items {
+  border: 2px solid black;
+  display: flex;
+  height: 25rem;
+  margin: 0.5rem;
+  align-items: center;
+}
+
+.without-wrap {
+  border: 2px solid black;
+  display: flex;
+  height: 25rem;
+  width: 40rem;
+  margin: 0.5rem;
+}
+.with-wrap {
+  border: 2px solid black;
+  display: flex;
+  height: 25rem;
+  width: 40rem;
+  margin: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.with-wrap-align-contents {
+  border: 2px solid black;
+  display: flex;
+  height: 25rem;
+  width: 40rem;
+  margin: 0.5rem;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.align-self {
+  border: 2px solid black;
+  display: flex;
+  height: 25rem;
+  width: 40rem;
+  margin: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.box-cc {
+  align-self: flex-end;
+}
+
+.flex-three-prop {
+  border: 2px solid black;
+  display: flex;
+  margin: 0.5rem;
+}
+.box-b {
+  flex-grow: 1;
+}
+.box-d {
+  flex-basis: 20rem;
+}
+
+.flex-shrink {
+  border: 2px solid black;
+  display: flex;
+  margin: 0.5rem;
+  width: 50vw;
+  margin-left: 10rem;
+}
+
+
+.box-e {
+  flex-shrink:10;
+}
