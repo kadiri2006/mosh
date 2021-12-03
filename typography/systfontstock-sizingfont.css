@@ -1,0 +1,46 @@
+html {
+  font-size: 100%;
+}
+
+.break {
+  height: 10px;
+}
+
+.first {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.second {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 16px;
+}
+
+.three {
+  font-size: 16px;
+}
+
+.sizing-fonts {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 590px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 715px) {
+  html {
+    font-size: 300%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  html {
+    font-size: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+p:nth-child(1) {
+  background-color: burlywood;
+}
+
+p:nth-child(2) {
+  background-color: cornsilk;
+}
+
+p {
+  padding: 1rem;
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 760px) {
+  div {
+    flex-direction: row;
+  }
+}

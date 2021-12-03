@@ -1,0 +1,13 @@
+.clipping {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.filter:hover {
+  filter: grayscale(70%) blur(5px);
+}
+
+.screen {
+  width: 480px;
+}
+
+

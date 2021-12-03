@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>range-file-fieldset</title>
+  </head>
+  <body>
+    <input type="range" min="0" max="1000" value="50" />
+    <input type="file" accept=".png " multiple />
+    <fieldset>
+      <legend>choose your favroite movie</legend>
+      <input type="radio" id="rrr" name="movie" />
+      <label for="rrr">rrr</label>
+      <input type="radio" id="baahubali" name="movie" />
+      <label for="baahubali">baahubali</label>
+      <input type="radio" name="movie" id="bheemalanaik" />
+      <label for="bheemalanaik">bheemalanaik</label>
+    </fieldset>
+    <form action="https://formspree.io/f/mvolpbgy" method="post">
+      <label for="name">name</label>
+      <input type="text" name="my name" id="name" required />
+      <label for="email">email</label>
+      <input type="email" name="my email" id="email" />
+
+      <input type="hidden" name="password" value="987" />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>

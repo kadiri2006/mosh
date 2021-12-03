@@ -1,0 +1,26 @@
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+input {
+  outline: snow;
+  border-radius: 0.5rem;
+  border-color: seashell;
+  padding: 0.2rem;
+  transition: border-color 1s, box-shadow 1s;
+}
+
+input:focus {
+  border: 0px solid blue;
+  box-shadow: 1px -1px 5px 1px blue;
+  padding: 5px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.4rem;
+}

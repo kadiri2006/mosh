@@ -1,0 +1,29 @@
+body {
+  background: url(../source-images/pc.jpg);
+  background-repeat: no-repeat;
+
+  height: 200vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+span {
+  display: inline-block;
+}
+
+.bg-reddit {
+  width: 100px;
+  height: 100px;
+  background: url(../source-images/css_sprites.png) -10px -10px;
+}
+.bg-whatsapp {
+  width: 100px;
+  height: 100px;
+  background: url("../source-images/css_sprites.png") -130px -10px;
+}
+
+.bg-youtube {
+  width: 100px;
+  height: 100px;
+  background: url("../source-images/css_sprites.png") -250px -10px;
+}

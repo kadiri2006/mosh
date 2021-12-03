@@ -1,0 +1,51 @@
+p {
+  margin-bottom: 80px;
+}
+.one {
+  background-color: lightgray;
+}
+
+.two {
+  text-align:center;
+}
+.three + p {
+  text-indent: 100px;
+}
+
+.four {
+  text-decoration:underline;
+}
+.five {
+  text-transform: uppercase;
+}
+
+.six-white-space-nowrap {
+  white-space: nowrap;
+  border: 3px dotted red;
+}
+.six-white-space {
+  border: 3px dotted red;
+}
+.six-white-space2 {
+  border: 3px dotted red;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.six-white-space3 {
+  border: 3px dotted red;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50ch;
+}
+
+.column {
+   column-count:3;
+   column-gap: 100px;
+   column-rule: solid red 50px;
+}
+
+.direction {
+    direction: rtl;
+}
